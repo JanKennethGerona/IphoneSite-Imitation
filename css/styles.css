@@ -11,11 +11,15 @@ body {
     background-size: cover;
 }
 
+#header-placeholder {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .accessories-header {
     background-color: rgba(248, 248, 248, 0.783);
     border-bottom: 1px solid #d2d2d7;
-    position: sticky;
-    top: 0;
 }
 
 .container {
